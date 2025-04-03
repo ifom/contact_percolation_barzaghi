@@ -1,0 +1,25 @@
+folder_path: "path/to/file" 
+output_directory: "path/to/output"
+mixed_pop: False #True means you have 5 channels, in the order: protein, red nuclei, green nuclei, actin, total nuclei. False means you have 3 channels: golgi, red/green nuclei, actin
+gamma_cell: 0.9 # CELLS Gamma Correction in case case there is no signal homogeneity between different cells in the FOV. Suggested value between 0.4 and 1.0 (no correction)
+gaussian_cell: 0 #CELL Gaussian Blur to make the signal more homogeneous within single cells. 0 means no blur. Suggested value between 0 and 10.
+gamma_nu: 0.9 # NUCLEI
+gaussian_nu: 1.0 # NUCLEI
+filter_area_cell: 6000 # Cell area threshold (in pixels) - Remove all objects that have an area smaller than the Area threshold.
+filter_area_nu: 3000 # Nuclear area threshold (in pixels) - Remove all objects that have an area smaller than the Area threshold.
+filter_ecc: 1.00 # Eccentricity threshold - Remove all objects that have an eccentricity higher than the eccentricity threshold. Note that the circle has eccentricity 0, while an ellipse has eccentricity between 0 and 1. This value goes close to 1 when you increase the ratio major/minor axis of the ellipse.  
+pixel_size: 0.1083333 #
+
+
+# SegmentationParameter
+store_segmentation: False
+use_given_mask: False
+model_type: "cyto3" # "cyto", "cyto2", "custom"
+model_type_nucleus: "nuclei" # "custom"
+model_path: ""
+estimated_cell_diameter: 150 # estimated cell diameter in pixels
+estimated_nucleus_diameter: 80 # estimated nuclei diameter in pixels
+flow_threshold: 0.4 # default cellpose value
+cellprob_threshold: 0.0 # default cellpose value
+use_gpu: True
+nu_in_cell_seg: False # Use also nuclear channel in cell segmentation?

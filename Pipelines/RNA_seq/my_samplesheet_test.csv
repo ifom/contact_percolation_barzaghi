@@ -1,0 +1,13 @@
+sample,fastq_1,fastq_2,strandedness,condition,replicate,batch
+EV_1,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/1_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/1_R2_001.fastq.gz,auto,EV,1,A
+EV_2,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/2_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/2_R2_001.fastq.gz,auto,EV,2,B
+EV_3,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/3_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/3_R2_001.fastq.gz,auto,EV,3,C
+RAB5_1,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/4_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/4_R2_001.fastq.gz,auto,RAB5,1,A 
+RAB5_2,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/5_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/5_R2_001.fastq.gz,auto,RAB5,2,B
+RAB5_3,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/6_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/6_R2_001.fastq.gz,auto,RAB5,3,C
+EV.IPO_1,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/7_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/7_R2_001.fastq.gz,auto,EV.IPO,1,A
+EV.IPO_2,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/8_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/8_R2_001.fastq.gz,auto,EV.IPO,2,B
+EV.IPO_3,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/9_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/9_R2_001.fastq.gz,auto,EV.IPO,3,C
+RAB5.IPO_1,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/10_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/10_R2_001.fastq.gz,auto,RAB5.IPO,1,A
+RAB5.IPO_2,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/11_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/11_R2_001.fastq.gz,auto,RAB5.IPO,2,B
+RAB5.IPO_3,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/12_R1_001.fastq.gz,/storage/DigitalDelivery/ebellini/2408060146_2f8b05b0/00_fastq/12_R2_001.fastq.gz,auto,RAB5.IPO,3,C
