@@ -1,58 +1,37 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href= "">
-  <h3 align="center"> Contact percolation governs collecive motility via mechanochemical feedback in eterogeneouse breast cancer
-</h3>
+  <a href="https://www.researchsquare.com/article/rs-6057847/v1" target="_blank">
+    <strong style="font-size: 1.2em;">
+      Contact percolation governs collective motility via mechanochemical feedback in heterogeneous breast cancer
+    </strong>
   </a>
+</p>
   <p align="center">
-  Leonardo Barzaghi<sup>* 1,2 </sup> , Chiara Guidolin<sup>3</sup>, Camillo Mazzella<sup>1</sup>, Joseph Ackermann<sup>4</sup>, Edoardo Bellini<sup>1,2</sup>, Stefano Villa<sup>3,5</sup>, Emanuela Frittoli<sup>1</sup>, Brenda Green<sup>1</sup>, Andrea Palamidessi<sup>1</sup>, Angela Cattaneo<sup>6</sup>, Angela Bachi<sup>1</sup>, Valeria Cancila<sup>7</sup>, Claudio Tripodo<sup>1,2,7</sup>, Simona Polo<sup>1,2</sup>, Roberto Cerbino<sup>8</sup>, Raphaël Voituriez<sup>4</sup>, Fabio Giavazzi </sup>*3, and Giorgio Scita <sup>†1, 2</sup>
-  <details open="open">
-  <summary>Reference</summary>
-  <ol>
-  <li>
-      <a href="1"> IFOM ETS, the AIRC Institute of Molecular Oncology, Milan, Italy </a>
-  </li>
-    <li>
-      <a href="2"> Department of Oncology and Haemato-Oncology, University of Milan, Milan, Italy </a>
-    </li>
-    <li>
-      <a href="3"> Department of Medical Biotechnology and Translational Medicine, University of Milan, Segrate, Italy </a>
-    </li>
-    <li>
-      <a href="4"> Laboratoire Jean Perrin, CNRS/Sorbonne Université, Paris, France </a>
-    </li>
-    <li>
-      <a href="5"> Max Plank Institute for Dynamics and Self-Organization, Göttingen, Germany </a>
-    </li>
-    <li>
-      <a href="6"> Cogentech SRL Benefit Corporation, Milan, Italy </a>
-    </li>
-    <li>
-      <a href="7"> Department of Health Sciences, Human Pathology Section, University of Palermo School of Medicine, Palermo, Italy </a>
-    </li>
-    <li>
-      <a href="8"> Faculty of Physics, University of Vienna, Vienna, Austria </a>
-    </li>
-  </ol>
-</details>
+    Leonardo Barzaghi<sup>*1,2</sup>, Chiara Guidolin<sup>3</sup>, Camillo Mazzella<sup>1</sup>, Joseph Ackermann<sup>4</sup>, Edoardo Bellini<sup>1,2</sup>, Stefano Villa<sup>3,5</sup>, Emanuela Frittoli<sup>1</sup>, Brenda Green<sup>1</sup>, Andrea Palamidessi<sup>1</sup>, Angela Cattaneo<sup>6</sup>, Angela Bachi<sup>1</sup>, Valeria Cancila<sup>7</sup>, Claudio Tripodo<sup>1,2,7</sup>, Simona Polo<sup>1,2</sup>, Roberto Cerbino<sup>8</sup>, Raphaël Voituriez<sup>4</sup>, Fabio Giavazzi<sup>*3</sup>, and Giorgio Scita<sup>†1,2</sup>
   </p>
 </p>
-<p align="center">
-</p>
-<!-- TABLE OF CONTENTS -->
+
+<details open="open">
+  <summary>Reference</summary>
+  <ol>
+    <li><a href="#">IFOM ETS, the AIRC Institute of Molecular Oncology, Milan, Italy</a></li>
+    <li><a href="#">Department of Oncology and Haemato-Oncology, University of Milan, Milan, Italy</a></li>
+    <li><a href="#">Department of Medical Biotechnology and Translational Medicine, University of Milan, Segrate, Italy</a></li>
+    <li><a href="#">Laboratoire Jean Perrin, CNRS/Sorbonne Université, Paris, France</a></li>
+    <li><a href="#">Max Planck Institute for Dynamics and Self-Organization, Göttingen, Germany</a></li>
+    <li><a href="#">Cogentech SRL Benefit Corporation, Milan, Italy</a></li>
+    <li><a href="#">Department of Health Sciences, Human Pathology Section, University of Palermo School of Medicine, Palermo, Italy</a></li>
+    <li><a href="#">Faculty of Physics, University of Vienna, Vienna, Austria</a></li>
+  </ol>
+</details>
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-  <li>
-      <a href="#About the paper">About the paper</a>
-  </li>
-    <li>
-      <a href="#Pipelines">Pipelines</a>
-    </li>
-    <li>
-      <a href="#Contacts">Contacts</a>
-    </li>
+    <li><a href="#about-the-paper">About the paper</a></li>
+    <li><a href="#pipelines">Pipelines</a></li>
+    <li><a href="#contacts">Contacts</a></li>
   </ol>
 </details>
 
