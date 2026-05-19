@@ -8,9 +8,13 @@
   </a>
 </p>
   <p align="center">
-    Leonardo Barzaghi<sup>*1,2</sup>, Chiara Guidolin<sup>3</sup>, Camillo Mazzella<sup>1</sup>, Joseph Ackermann<sup>4</sup>, Edoardo Bellini<sup>1,2</sup>, Stefano Villa<sup>3,5</sup>, Emanuela Frittoli<sup>1</sup>, Brenda Green<sup>1</sup>, Andrea Palamidessi<sup>1</sup>, Angela Cattaneo<sup>6</sup>, Angela Bachi<sup>1</sup>, Valeria Cancila<sup>7</sup>, Claudio Tripodo<sup>1,2,7</sup>, Simona Polo<sup>1,2</sup>, Roberto Cerbino<sup>8</sup>, Raphaël Voituriez<sup>4</sup>, Fabio Giavazzi<sup>*3</sup>, and Giorgio Scita<sup>†1,2</sup>
+    Leonardo Barzaghi<sup>†,1,2</sup>, Camillo Mazzella<sup>†,1</sup>, Chiara Guidolin<sup>3</sup>,  Joseph Ackermann<sup>4</sup>, Edoardo Bellini<sup>1,2</sup>,  Andrew E. Massey<sup>5</sup>, Stefano Villa<sup>3,6</sup>, Emanuela Frittoli<sup>1</sup>, Brenda Green<sup>1</sup>, Andrea Palamidessi<sup>1</sup>, Angela Cattaneo<sup>7</sup>, Angela Bachi<sup>1</sup>, Valeria Cancila<sup>8</sup>, Claudio Tripodo<sup>1,2,8</sup>, Simona Polo<sup>1,2</sup>, Roberto Cerbino<sup>9</sup>, Alexander X. Cartagena-Rivera<sup>5</sup>, Raphaël Voituriez<sup>4</sup>, Fabio Giavazzi<sup>#3</sup>, and Giorgio Scita<sup>#1,2</sup>
   </p>
 </p>
+
+† These authors contributed equally.
+    # Correspondence should be addressed to Fabio Giavazzi (fabio.giavazzi@unimi.it) or Giorgio Scita (giorgio.scita@ifom.eu).
+
 
 <details open="open">
   <summary>Reference</summary>
@@ -19,10 +23,12 @@
     <li><a href="#">Department of Oncology and Haemato-Oncology, University of Milan, Milan, Italy</a></li>
     <li><a href="#">Department of Medical Biotechnology and Translational Medicine, University of Milan, Segrate, Italy</a></li>
     <li><a href="#">Laboratoire Jean Perrin, CNRS/Sorbonne Université, Paris, France</a></li>
+    <li><a href="#">Section on Mechanobiology, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, USA</a></li>
     <li><a href="#">Max Planck Institute for Dynamics and Self-Organization, Göttingen, Germany</a></li>
     <li><a href="#">Cogentech SRL Benefit Corporation, Milan, Italy</a></li>
     <li><a href="#">Department of Health Sciences, Human Pathology Section, University of Palermo School of Medicine, Palermo, Italy</a></li>
     <li><a href="#">Faculty of Physics, University of Vienna, Vienna, Austria</a></li>
+
   </ol>
 </details>
 
@@ -38,8 +44,7 @@
 <!-- About the paper -->
 ## About the paper
 
-Breast cancer progression is driven by dynamic changes in tissue mechanics that promote phase transitions toward collective cell movement, immune activation, and invasion. While previous investigations primarily employed model systems of genetically identical cells, breast carcinoma consists of heterogeneous cell populations varying in genetic and mechanical traits. The complex interplay between this diversity and collective cell dynamics, affecting phase transitions and tumor progression, remains largely unexplored.Here, we interpreted our experimental data through contact percolation theory to uncover a chemo-mechanical switch underlying a phase transition via the emergence of flocking motility in heterogeneous breast cancer tissues. Using engineered mixtures of motile RAB5A-expressing cells and immotile controls, we demonstrate that interconnected system-spanning clusters of fluidized RAB5A cells induce a phenotypic switch in neighboring cells, enabling them to acquire full-scale, flocking-like motility and reprogram their transcriptional
-state. This transition is accompanied by the activation of pro-inflammatory gene programs. Our theoretical modeling supports a mechanism by which local cell composition drives a motility switch critical for the emergence of coordinated, system-wide movement. These findings highlight the role of mechanical heterogeneity in tumor progression and identify contact percolation as a fundamental mechanism driving dynamic tissue reorganization and immune modulation at the root of breast cancer invasion and metastasis.
+Breast cancer progression is driven by dynamic changes in tissue mechanics that promote phase transitions toward collective cell movement, immune activation, and invasion. Whilethese processes have been mainly investigated in model systems of genetically identical cells, breast carcinomas are intrinsically heterogeneous, comprising cell populations with distinct genetic and mechanical properties. How this heterogeneity shapes collective dynamics and tumor progression remains poorly understood. Here, we interpret our experimental data through contact percolation theory to uncover a mechano-chemical switch underlying the emergence of collective flocking motility in heterogeneous breast cancer tissues. Using engineered mixtures of motile RAB5A-expressing cells and immotile control cells, we show that system-spanning clusters of fluidized RAB5A cells induce an abrupt morphodynamic switch in neighboring control cells, enabling them to acquire polarized protrusions and full-scale flocking-like motility. Theoretical modeling supports a mechanism by which local cell composition governs this transition and the onset of coordinated, system-wide motion, in a process that depends on RAC1-driven protrusive activity. Mechanistically, control cells in mixed monolayers above the percolation threshold exhibit activation of an E- cadherin-dependent EGFR–MAPK signaling axis, whereas E-cadherin silencing suppresses MAPK activation, impairs protrusion alignment, and disrupts flocking. This transition is accompanied by collective mechanical remodeling, as control cells progressively soften and become more elongated as the fraction of neighboring RAB5A cells increases, consistent with enhanced tissue fluidization. In parallel, control cells activate a STAT1/STAT2-dependent inflammatory program, fostered by the combined action of paracrine signaling and contact-dependent amplification. Together, these findings support a model in which contact percolation and mechano-chemical coupling contribute to dynamic tissue reorganization, inflammatory reprogramming, and invasive behavior in heterogeneous breast cancer.
 
 <!-- Pipelines -->
 ## Pipelines
