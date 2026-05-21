@@ -9,17 +9,10 @@ This folder contains analysis pipelines for studying cell motility in mixed canc
   - `DYNAMIX_*.m`: Trajectory building, velocity calculations, MSD analysis
   - `STATIX_*.m`: Statistical analysis and clustering
   - `PIV_*.m`: Particle Image Velocimetry analysis
-  - `Functions/`: Helper functions for data processing
-  - `EdU_quantification_*.py`: Automated EdU staining quantification
+  - [`Functions/`](./MixedPop_Code4Sharing/Functions/): Helper functions for data processing
   - `Macro_Fiji_*.ijm`: ImageJ/FIJI macros for segmentation
-
-- **Image_analisys/**: Image segmentation pipeline (Python)
-  - Cell segmentation using neural networks
-  
-- **RNA_seq/**: RNA sequencing data and analysis
 
 ## Quick Start
 
-1. **Image Segmentation**: Run `Image_analisys/segmentation.py` to segment cell regions
-2. **Trajectory Analysis**: Execute MATLAB scripts in numerical order (01-07) in `MixedPop_Code4Sharing/`
-3. **Statistical Analysis**: Run `STATIX_*.m` scripts for clustering and statistics
+1. **Trajectory Analysis**: Execute MATLAB scripts in numerical order (01-07) in `MixedPop_Code4Sharing/`
+2. **Statistical Analysis**: Run `STATIX_*.m` scripts for clustering and statistics
