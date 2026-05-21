@@ -23,8 +23,3 @@ This folder contains analysis pipelines for studying cell motility in mixed canc
 1. **Image Segmentation**: Run `Image_analisys/segmentation.py` to segment cell regions
 2. **Trajectory Analysis**: Execute MATLAB scripts in numerical order (01-07) in `MixedPop_Code4Sharing/`
 3. **Statistical Analysis**: Run `STATIX_*.m` scripts for clustering and statistics
-
-## Notes
-- Code is provided as-is for the original study; parameters may need adjustment for new datasets
-- Requires MATLAB with Image Processing Toolbox, Python dependencies in `RNA_seq_env.yml`
-- See individual script headers for specific requirements
