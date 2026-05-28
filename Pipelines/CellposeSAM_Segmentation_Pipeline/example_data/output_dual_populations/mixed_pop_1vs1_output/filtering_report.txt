@@ -1,0 +1,10 @@
+Filtering report for mixed_pop_1vs1.tif
+Input file: example_data/input/dual_populations/mixed_pop_1vs1.tif
+
+Filtered 17 cells by area (227 -> 210; min_area=1600.0).
+Filtered 11 all_cells nuclei (192 -> 181; area=11, eccentricity=0).
+Association filtering for all_cells nuclei in cells: nuclei 181 -> 178 (removed: no container=2, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=20, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=1); cells 210 -> 178 (removed empty=32).
+Filtered 4 population_1 nuclei (73 -> 69; area=4, eccentricity=0).
+Association filtering for population_1 nuclei in cells: nuclei 69 -> 69 (removed: no container=0, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=10, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=0); cells 210 -> 69 (removed empty=141).
+Filtered 7 population_2 nuclei (123 -> 116; area=7, eccentricity=0).
+Association filtering for population_2 nuclei in cells: nuclei 116 -> 113 (removed: no container=2, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=8, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=1); cells 210 -> 113 (removed empty=97).

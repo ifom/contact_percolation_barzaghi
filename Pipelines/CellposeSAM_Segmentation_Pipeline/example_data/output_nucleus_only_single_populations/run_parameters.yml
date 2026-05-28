@@ -1,0 +1,36 @@
+folder_path: example_data/input/nucleus_only_single_populations
+output_directory: example_data/output_nucleus_only_single_populations
+write_combined_table: true
+segmentation_mode: nucleus_only
+nuclear_mode: single
+quantify_protein: true
+use_voronoi: false
+voronoi_seed_mode: nuclear_mask
+use_foreground_mask: false
+foreground_sigma: 2.0
+foreground_percentile: 5.0
+foreground_min_size: 0
+voronoi_ring_width_px: 0
+channels:
+  nucleus: 0
+  protein: 1
+z_projection: max
+protein_z_projection: mean
+estimated_cell_diameter: 70
+estimated_nucleus_diameter: 40
+flow_threshold: 0.4
+cellprob_threshold: 0.0
+nu_in_cell_seg: true
+use_gpu: true
+gpu_device: auto
+gamma_cell: 1.0
+gaussian_cell: 0.0
+gamma_nu: 1.0
+gaussian_nu: 0.0
+filter_area_cell: 1600
+filter_area_nu: 600
+filter_ecc: 1.0
+ambiguous_overlap_ratio: 0.8
+min_container_overlap_fraction: 0.02
+multi_nucleus_cell_policy: keep_largest
+pixel_size: 0.2166667

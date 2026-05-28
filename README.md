@@ -58,14 +58,10 @@ In this [folder](./Pipelines/RNA_seq/) are located the pipelines, bash and R scr
 * `.csv` files, text file containing metadata information of the samples.
 
 * `.yaml` file, cotaining all requirments to build a conda enviroment to reproduce the analisys and plots of the RNA_seq.
-### Image analisys
-In this [folder](./Pipelines/Image_analisys/) are present the pipelines, python scripts used to analyze immunofluorescence images for cell segmentation. Within the folder are present:
 
-* `launcher_segmentation.py` python script that launches the segmentation analisys according to user-defined parameters in the file [parametri.yaml](./Pipelines/Image_analisys/parametri.yaml) 
+### CellposeSAM_Segmentation_Pipeline
 
-* `segmentation.py` python script that segments cells and nuclei using [cellpose](https://www.nature.com/articles/s41592-020-01018-x.epdf?sharing_token=yrCA1mB-y9TR8-RC8w_CPdRgN0jAjWel9jnR3ZoTv0Ms-A3TbUG5N7s_6d3I7lMImMDE6cyl-17ubiknffX50r-dX1un0XSIQ2PGYWsCV1du16fIaipcHNxste8FMByEL75Ek_S2_UEVkSk7lCFllWEVogGWJwmQkBC9uKq9UEA%3D) and extracts general shape parameters.
-
-* `mixedpop_segmentation.py` python script that segments cells and nuclei from mixed population of cells with different nuclear florescent markers and extracts general shape parameters.
+In this [folder](./Pipelines/CellposeSAM_Segmentation_Pipeline/) are present the pipelines, python scripts used to analyze immunofluorescence images for cell segmentation. Refer to [README.md](./Pipelines/CellposeSAM_Segmentation_Pipeline/README.md) for detailed description of the pipeline functionality.
 
 ### Analisys of cell Motility
 In this [folder](./Pipelines/analisys_of_cell_motility) are present the pipelines, and MATLAB scripts used to analyze maps of the flow field in the cell monolayer are obtained by analyzing phase-contrast movies with PIV. Within the folder are present :

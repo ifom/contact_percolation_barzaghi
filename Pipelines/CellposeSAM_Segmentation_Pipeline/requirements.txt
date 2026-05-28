@@ -1,0 +1,12 @@
+# Cellpose-SAM pipeline requirements.
+# Install a PyTorch build compatible with your GPU first.
+
+numpy>=2.2,<3
+scipy>=1.15,<2
+scikit-image>=0.25,<1
+matplotlib>=3.10,<4
+PyYAML>=6.0,<7
+tifffile>=2025.5
+tqdm>=4.67,<5
+cellpose>=4.1,<5
+

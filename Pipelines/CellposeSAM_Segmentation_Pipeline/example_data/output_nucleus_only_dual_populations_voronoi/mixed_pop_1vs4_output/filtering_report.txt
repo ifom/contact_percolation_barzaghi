@@ -1,0 +1,8 @@
+Filtering report for mixed_pop_1vs4.tif
+Input file: example_data/input/nucleus_only_dual_populations/mixed_pop_1vs4.tif
+
+Filtered 12 all_cells nuclei (204 -> 192; area=12, eccentricity=0).
+Filtered 0 population_1 nuclei (13 -> 13; area=0, eccentricity=0).
+Association filtering for population_1 nuclei in Voronoi territories: nuclei 13 -> 13 (removed: no container=0, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=1, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=0); Voronoi territories 192 -> 13 (removed empty=179).
+Filtered 12 population_2 nuclei (191 -> 179; area=12, eccentricity=0).
+Association filtering for population_2 nuclei in Voronoi territories: nuclei 179 -> 179 (removed: no container=0, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=20, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=0); Voronoi territories 192 -> 179 (removed empty=13).

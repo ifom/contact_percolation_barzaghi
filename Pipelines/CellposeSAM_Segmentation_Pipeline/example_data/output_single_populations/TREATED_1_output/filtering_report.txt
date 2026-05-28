@@ -1,0 +1,6 @@
+Filtering report for TREATED_1.tif
+Input file: example_data/input/single_populations/TREATED_1.tif
+
+Filtered 21 cells by area (166 -> 145; min_area=1600.0).
+Filtered 13 all_cells nuclei (150 -> 137; area=13, eccentricity=0).
+Association filtering for all_cells nuclei in cells: nuclei 137 -> 135 (removed: no container=1, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=8, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=1); cells 145 -> 135 (removed empty=10).

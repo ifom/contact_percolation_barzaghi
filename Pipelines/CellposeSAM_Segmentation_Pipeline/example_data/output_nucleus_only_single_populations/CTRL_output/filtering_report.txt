@@ -1,0 +1,4 @@
+Filtering report for CTRL.tif
+Input file: example_data/input/nucleus_only_single_populations/CTRL.tif
+
+Filtered 17 all_cells nuclei (275 -> 258; area=17, eccentricity=0).

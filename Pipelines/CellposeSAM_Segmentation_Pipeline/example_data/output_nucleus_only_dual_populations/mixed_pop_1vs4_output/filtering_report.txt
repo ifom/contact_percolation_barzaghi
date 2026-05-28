@@ -1,0 +1,6 @@
+Filtering report for mixed_pop_1vs4.tif
+Input file: example_data/input/nucleus_only_dual_populations/mixed_pop_1vs4.tif
+
+Filtered 12 all_cells nuclei (204 -> 192; area=12, eccentricity=0).
+Filtered 0 population_1 nuclei (13 -> 13; area=0, eccentricity=0).
+Filtered 12 population_2 nuclei (191 -> 179; area=12, eccentricity=0).

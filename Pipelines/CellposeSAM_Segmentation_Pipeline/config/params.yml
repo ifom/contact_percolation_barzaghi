@@ -1,0 +1,91 @@
+# Unified Cellpose-SAM segmentation pipeline configuration
+
+folder_path: "example_data/input/nucleus_only_dual_populations"
+output_directory: "example_data/output_nucleus_only_dual_populations"
+write_combined_table: true
+
+# Analysis mode:
+#   cell_nucleus: segment a cell/cytoplasmic channel and nuclei.
+#   nucleus_only: segment nuclei only, useful when no cell/cytoplasmic marker is available.
+segmentation_mode: "nucleus_only"
+
+# Nuclear mode:
+#   single: one nuclear channel.
+#   dual_population: two population-specific nuclear channels.
+nuclear_mode: "dual_population"
+
+# Quantify protein/intensity channel in available compartments.
+quantify_protein: true
+
+# Nuclear territory / pseudo-cytoplasm analysis.
+# Mainly useful in nucleus_only mode when no real cell/cytoplasmic marker is available.
+use_voronoi: false
+voronoi_seed_mode: "nuclear_mask"   # "nuclear_mask" or "centroid"
+use_foreground_mask: false           # limit territories to a foreground mask
+foreground_sigma: 2.0                # smoothing used to estimate foreground
+foreground_percentile: 5.0           # lower percentile threshold for permissive foreground
+foreground_min_size: 0               # remove foreground objects smaller than this pixel area; 0 disables
+voronoi_ring_width_px: 0             # 0 = full territory minus nucleus; >0 = perinuclear ring width in pixels
+
+# Channel mapping. Use zero-based channel indices.
+# Input images must be channel-first:
+#   single-plane: (C, Y, X)
+#   z-stack:      (Z, C, Y, X)
+channels:
+  # nucleus: 0
+  protein: 3
+  # cell: 3
+  # For dual_population mode, use these instead of nucleus:
+  population_1_nucleus: 1
+  population_2_nucleus: 2
+  # Optional total nuclear channel. If absent, population_1 + population_2 is used.
+  total_nuclei: 0
+
+# Z projection for z-stack images. Ignored for single-plane images.
+z_projection: "max"           # used for cell and nuclear channels
+protein_z_projection: "mean"  # used for protein/intensity channel
+
+# Cellpose-SAM segmentation parameters.
+# Cellpose 4 uses CellposeModel; legacy Cellpose 3 model_type keys are not used.
+estimated_cell_diameter: 70       # pixels; set null to let Cellpose estimate/handle size
+estimated_nucleus_diameter: 40    # pixels; set null to let Cellpose estimate/handle size
+flow_threshold: 0.4
+cellprob_threshold: 0.0
+nu_in_cell_seg: true              # use nuclear channel as second input during cell segmentation
+
+# Hardware acceleration.
+#   use_gpu: false = force CPU
+#   use_gpu: true  = use backend selected by gpu_device
+# gpu_device options:
+#   auto = CUDA if available, otherwise MPS if available, otherwise CPU
+#   cuda = NVIDIA CUDA GPU
+#   mps  = Apple Silicon Metal/MPS backend
+#   cpu  = force CPU
+use_gpu: true
+gpu_device: "auto"
+
+# Pre-processing before Cellpose.
+# Gamma correction: I' = I^gamma; gamma=1 disables correction.
+gamma_cell: 1.0
+gaussian_cell: 0.0   # Gaussian sigma for cell channel; 0 disables blur
+gamma_nu: 1.0
+gaussian_nu: 0.0     # Gaussian sigma for nuclear channel; 0 disables blur
+
+# Object filtering.
+filter_area_cell: 1600    # minimum cell area in pixels
+filter_area_nu: 600       # minimum nuclear area in pixels
+filter_ecc: 1.0           # maximum nuclear eccentricity; 1 disables eccentricity filtering
+ambiguous_overlap_ratio: 0.8  # remove nuclei shared by two cells if min/max overlap ratio exceeds this value
+
+# Ignore marginal nucleus-cell overlaps before assigning nuclei to cells.
+# Example: 0.02 ignores overlaps smaller than 2% of the nuclear area.
+min_container_overlap_fraction: 0.02
+
+# How to handle cells/territories containing more than one valid nucleus:
+#   remove_cell: remove the cell/territory and all nuclei inside it; most conservative.
+#   keep_largest: keep only the largest nucleus in that cell/territory.
+#   keep_all: keep all nuclei; not recommended for per-cell measurements.
+multi_nucleus_cell_policy: "keep_largest"
+
+# Pixel size in micrometers per pixel.
+pixel_size: 0.2166667

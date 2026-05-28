@@ -1,0 +1,4 @@
+Filtering report for TREATED.tif
+Input file: example_data/input/nucleus_only_single_populations/TREATED.tif
+
+Filtered 9 all_cells nuclei (242 -> 233; area=9, eccentricity=0).

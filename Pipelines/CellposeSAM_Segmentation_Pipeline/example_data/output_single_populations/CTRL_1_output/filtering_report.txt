@@ -1,0 +1,6 @@
+Filtering report for CTRL_1.tif
+Input file: example_data/input/single_populations/CTRL_1.tif
+
+Filtered 14 cells by area (230 -> 216; min_area=1600.0).
+Filtered 15 all_cells nuclei (202 -> 187; area=15, eccentricity=0).
+Association filtering for all_cells nuclei in cells: nuclei 187 -> 187 (removed: no container=0, >2 containers=0, ambiguous overlap=0, small overlap=0, overlap >= container=0, ignored tiny overlaps=12, multi-nucleus containers removed=0, nuclei removed in multi-nucleus containers=0, multi-nucleus containers kept with largest nucleus=0); cells 216 -> 187 (removed empty=29).
