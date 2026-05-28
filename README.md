@@ -61,7 +61,7 @@ In this [folder](./Pipelines/RNA_seq/) are located the pipelines, bash and R scr
 
 ### CellposeSAM_Segmentation_Pipeline
 
-In this [folder](./Pipelines/CellposeSAM_Segmentation_Pipeline/) are present the pipelines, python scripts used to analyze immunofluorescence images for cell segmentation. Refer to [README.md](./Pipelines/CellposeSAM_Segmentation_Pipeline/README.md) for detailed description of the pipeline functionality.
+This [folder](./Pipelines/CellposeSAM_Segmentation_Pipeline/) contains Python scripts and pipelines for analyzing immunofluorescence images and performing cell segmentation. For detailed information regarding the pipeline functionality, see the [README.md](./Pipelines/CellposeSAM_Segmentation_Pipeline/README.md).
 
 ### Analisys of cell Motility
 In this [folder](./Pipelines/analisys_of_cell_motility) are present the pipelines, and MATLAB scripts used to analyze maps of the flow field in the cell monolayer are obtained by analyzing phase-contrast movies with PIV. Within the folder are present :
