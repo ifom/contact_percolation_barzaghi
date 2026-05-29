@@ -2,7 +2,9 @@
 
 This repository contains custom analysis scripts used to segment fluorescence microscopy images and quantify per-object protein intensity. The code is provided to document the computational workflow used for the manuscript and to support reproducibility. It is not intended as a general-purpose image-analysis software package.
 
-This version is adapted for **Cellpose-SAM**. It uses `cellpose.models.CellposeModel` and does not use the legacy Cellpose 3 `models.Cellpose` class or the old `eval(channels=...)` API.
+This version is adapted to segmenting cells using **Cellpose-SAM**. 
+
+Pachitariu, M., Rariden, M., & Stringer, C. (2025). Cellpose-SAM: superhuman generalization for cellular segmentation. <em>bioRxiv</em>. [Link to the original paper](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1)
 
 ## Overview
 
@@ -329,4 +331,4 @@ To disable the combined table:
 ```yaml
 write_combined_table: false
 ```
-
+Credits to Leonardo Barzaghi

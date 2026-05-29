@@ -1,13 +1,13 @@
 # Unified Cellpose-SAM segmentation pipeline configuration
 
-folder_path: "example_data/input/nucleus_only_dual_populations"
-output_directory: "example_data/output_nucleus_only_dual_populations"
+folder_path: "example_data/input/dual_populations"
+output_directory: "example_data/output_dual_populations"
 write_combined_table: true
 
 # Analysis mode:
 #   cell_nucleus: segment a cell/cytoplasmic channel and nuclei.
 #   nucleus_only: segment nuclei only, useful when no cell/cytoplasmic marker is available.
-segmentation_mode: "nucleus_only"
+segmentation_mode: "cell_nucleus"
 
 # Nuclear mode:
 #   single: one nuclear channel.
@@ -33,13 +33,13 @@ voronoi_ring_width_px: 0             # 0 = full territory minus nucleus; >0 = pe
 #   z-stack:      (Z, C, Y, X)
 channels:
   # nucleus: 0
-  protein: 3
-  # cell: 3
+  protein: 0
+  cell: 3
   # For dual_population mode, use these instead of nucleus:
   population_1_nucleus: 1
   population_2_nucleus: 2
   # Optional total nuclear channel. If absent, population_1 + population_2 is used.
-  total_nuclei: 0
+  # total_nuclei: 0
 
 # Z projection for z-stack images. Ignored for single-plane images.
 z_projection: "max"           # used for cell and nuclear channels

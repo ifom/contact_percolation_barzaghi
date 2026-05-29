@@ -1,4 +1,6 @@
 """
+Leonardo Barzaghi
+
 Unified Cellpose-based segmentation pipeline for single- or dual-population images.
 
 The script can:
